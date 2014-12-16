@@ -1,0 +1,61 @@
+body{
+	background: url(../img/menu/makanan3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+div {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+
+
+
+body::after {
+  content: "";
+   opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+
+
+
+
+
+#content{
+
+position:absolute;
+bottom: 0;
+width: 100%;
+z-index:10;
+
+
+
+height: 50px;
+background-color: black;
+opacity: 0.4;
+
+}
+
+
+#content:hover{
+	opacity: 0.6;
+	background-color: white;
+	color:orange;
+}
+
+*{
+	margin:0;
+}
